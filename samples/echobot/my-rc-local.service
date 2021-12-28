@@ -1,0 +1,9 @@
+[Unit]
+Description=My /etc/rc.local
+
+[Service]
+Type=forking
+ExecStart=/etc/my-rc.local
+
+[Install]
+WantedBy=multi-user.target
